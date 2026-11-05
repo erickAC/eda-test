@@ -11,6 +11,8 @@ import org.springframework.amqp.support.converter.DefaultClassMapper;
 import org.springframework.amqp.support.converter.JacksonJsonMessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.retry.RetryPolicy;
+import org.springframework.core.retry.RetryTemplate;
 
 @Configuration
 public class RabbitMQConfiguration {
@@ -40,6 +42,8 @@ public class RabbitMQConfiguration {
   public RabbitTemplate rabbitTemplate() {
     RabbitTemplate rabbitTemplate = new RabbitTemplate(connectionFactory());
     rabbitTemplate.setMessageConverter(messageConverter());
+    RetryPolicy retryPolicy = RetryPolicy.builder().maxRetries(3).build();
+    rabbitTemplate.setRetryTemplate(new RetryTemplate(retryPolicy));
     return rabbitTemplate;
   }
 

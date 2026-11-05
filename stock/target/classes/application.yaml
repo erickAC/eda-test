@@ -3,3 +3,12 @@ server:
 spring:
   application:
     name: stock
+  datasource:
+    url: jdbc:postgresql://localhost:5433/stock
+    driver-class-name: org.postgresql.Driver
+    password: postgres
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true

@@ -10,28 +10,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c70d7d6-87e2-4329-8cb1-07f52b5fad72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/stock/stock/infra/config/RabbitMQConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/stock/stock/infra/listeners/OrderListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/stock/stock/infra/readmodels/OrderPayload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/stock/stock/infra/readmodels/OrderReadModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/stock/stock/infra/readmodels/ReadModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/9.8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/9.8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/9.8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/9.8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/9.8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/9.8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/9.8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/9.8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../order/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="876b6c5f-f1bf-49f9-a649-68ab4848f126" value="" />
+    </colors>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Docker Compose" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;erickAC&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/erickAC/eda-test.git&quot;,
+    &quot;accountId&quot;: &quot;edcf6d1f-e7a4-4f79-ae6b-f53c251b5762&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/4.1.2/spring-amqp-4.1.2-sources.jar!/org/springframework/amqp/support/converter/ClassMapper.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/4.1.2/spring-amqp-4.1.2-sources.jar!/org/springframework/amqp/support/converter/DefaultClassMapper.java" root0="SKIP_INSPECTION" />
@@ -50,61 +73,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.4304818572092295" />
-      <entry key="MS500" value="3.566200012801582" />
-      <entry key="S2" value="10.218047962197057" />
-      <entry key="S5" value="14.980393109239866" />
-      <entry key="S10" value="17.26262873166661" />
-      <entry key="S30" value="19.27036872176815" />
-      <entry key="S60" value="20.54202494570952" />
-      <entry key="M2" value="22.91903625874656" />
-      <entry key="M5" value="27.12058290917789" />
-      <entry key="M10" value="32.015946056141935" />
-      <entry key="M15" value="38.43539956555918" />
-      <entry key="M30" value="61.45390575026007" />
-      <entry key="H1" value="93.78100920214312" />
-      <entry key="H2" value="122.07115009226521" />
-      <entry key="H4" value="140.96721878011556" />
-      <entry key="D1" value="159.83656688493522" />
-      <entry key="W1" value="163.3967349619641" />
+      <entry key="MS100" value="3.440022705999951E-22" />
+      <entry key="MS500" value="5.0969721644797934E-5" />
+      <entry key="S2" value="0.08449442706425786" />
+      <entry key="S5" value="0.372161314755497" />
+      <entry key="S10" value="0.6101035518487556" />
+      <entry key="S30" value="0.9270598558557156" />
+      <entry key="S60" value="1.5162288537635682" />
+      <entry key="M2" value="4.099160689726282" />
+      <entry key="M5" value="20.50432290385098" />
+      <entry key="M10" value="56.24742481857481" />
+      <entry key="M15" value="88.6876034922413" />
+      <entry key="M30" value="159.26886883157468" />
+      <entry key="H1" value="243.30330743697505" />
+      <entry key="H2" value="325.6626387651751" />
+      <entry key="H4" value="388.70185621472984" />
+      <entry key="D1" value="459.3102288300396" />
+      <entry key="W1" value="473.5560121701402" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="7.404307004747675E-134" />
-      <entry key="MS500" value="2.3653580134076568E-27" />
-      <entry key="S2" value="2.2129138624376961E-7" />
-      <entry key="S5" value="0.002501186617878894" />
-      <entry key="S10" value="0.07200517595576053" />
-      <entry key="S30" value="0.8818793661324946" />
-      <entry key="S60" value="2.1780444697851933" />
-      <entry key="M2" value="4.35498069658789" />
-      <entry key="M5" value="8.163323046311863" />
-      <entry key="M10" value="13.253830466673048" />
-      <entry key="M15" value="19.14645664766914" />
-      <entry key="M30" value="37.783149045627205" />
-      <entry key="H1" value="62.52595984254046" />
-      <entry key="H2" value="83.78256505944198" />
-      <entry key="H4" value="97.8816986382574" />
-      <entry key="D1" value="111.91008024445897" />
-      <entry key="W1" value="114.55238967545961" />
+      <entry key="MS100" value="1.0005493449632294" />
+      <entry key="MS500" value="1.2240332515200372" />
+      <entry key="S2" value="1.8733949893380002" />
+      <entry key="S5" value="2.3712390966702297" />
+      <entry key="S10" value="2.6430073738395166" />
+      <entry key="S30" value="3.0131880515651575" />
+      <entry key="S60" value="3.521529240602497" />
+      <entry key="M2" value="4.481654080072188" />
+      <entry key="M5" value="9.083191304117676" />
+      <entry key="M10" value="23.0512043154572" />
+      <entry key="M15" value="37.514741428307886" />
+      <entry key="M30" value="72.68887455881487" />
+      <entry key="H1" value="120.83970768456447" />
+      <entry key="H2" value="172.42379635001143" />
+      <entry key="H4" value="213.57766051833224" />
+      <entry key="D1" value="260.73259969874607" />
+      <entry key="W1" value="270.3475629045271" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4008121790127563" />
-      <entry key="MS500" value="3.548165986768341" />
-      <entry key="S2" value="10.197482185270983" />
-      <entry key="S5" value="14.968824177226084" />
-      <entry key="S10" value="17.318228298812507" />
-      <entry key="S30" value="20.111441333582064" />
-      <entry key="S60" value="22.664642905207707" />
-      <entry key="M2" value="27.21149576669735" />
-      <entry key="M5" value="35.23442812859029" />
-      <entry key="M10" value="45.23095627117919" />
-      <entry key="M15" value="57.54534465474315" />
-      <entry key="M30" value="99.20180529435233" />
-      <entry key="H1" value="156.2780241902575" />
-      <entry key="H2" value="205.83438326173186" />
-      <entry key="H4" value="238.8376414170768" />
-      <entry key="D1" value="271.7445010133165" />
-      <entry key="W1" value="277.9488108742517" />
+      <entry key="MS100" value="0.0016446880913964753" />
+      <entry key="MS500" value="0.38374447366081016" />
+      <entry key="S2" value="1.4912134111820146" />
+      <entry key="S5" value="2.4550173671023625" />
+      <entry key="S10" value="3.0754363768774997" />
+      <entry key="S30" value="3.8631386073417877" />
+      <entry key="S60" value="4.983162605676732" />
+      <entry key="M2" value="8.53424745838717" />
+      <entry key="M5" value="29.536571468803437" />
+      <entry key="M10" value="79.23488741721806" />
+      <entry key="M15" value="126.13521802664881" />
+      <entry key="M30" value="231.89463890172024" />
+      <entry key="H1" value="364.0907548170021" />
+      <entry key="H2" value="498.0489644121104" />
+      <entry key="H4" value="602.2562096298072" />
+      <entry key="D1" value="720.0380659781099" />
+      <entry key="W1" value="743.9028690682759" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -116,33 +139,33 @@
     <option name="flattenModules" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.StockApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/erick/projects/eventsourcing/order&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.StockApplication.executor": "Debug",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/erick/projects/eventsourcing/order",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
