@@ -1,0 +1,19 @@
+_format_version: "3.0"
+services:
+  - name: order-service
+    url: http://host.docker.internal:8080
+    routes:
+      - name: order-route
+        paths:
+          - "/order"
+        protocols: 
+          - http
+        
+  - name: stock-service
+    url: http://host.docker.internal:8081
+    routes:
+      - name: stock-route
+        paths:
+          - "/stock"
+        protocols:
+          - http
