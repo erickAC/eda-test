@@ -1,2 +1,7 @@
 ### **Event Sourcing**
-Repositório de estudo de montagem de uma arquitetura event-driven
+Repositório de estudo de montagem de uma arquitetura event-driven.
+
+#### Iniciando
+Para executar primeiro, temos que rodar o compose em /stock
+
+Após isso podemos rodar o ```docker compose up -d```.
