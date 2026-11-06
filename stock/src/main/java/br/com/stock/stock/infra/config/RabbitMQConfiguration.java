@@ -2,8 +2,7 @@ package br.com.stock.stock.infra.config;
 
 import java.util.Map;
 
-import br.com.stock.stock.infra.readmodels.OrderPayload;
-import br.com.stock.stock.infra.readmodels.OrderReadModel;
+import br.com.stock.stock.infra.readmodels.ReadModel;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -32,7 +31,7 @@ public class RabbitMQConfiguration {
     JacksonJsonMessageConverter messageConverter = new JacksonJsonMessageConverter();
     DefaultClassMapper classMapper = new DefaultClassMapper();
     classMapper.setTrustedPackages("*");
-    Map<String, Class<?>> mappings = Map.of("br.com.order.order.domains.ProcessedEvent", OrderReadModel.class);
+    Map<String, Class<?>> mappings = Map.of("br.com.order.order.domains.ProcessedEvent", ReadModel.class);
     classMapper.setIdClassMapping(mappings);
     messageConverter.setClassMapper(classMapper);
     return messageConverter;

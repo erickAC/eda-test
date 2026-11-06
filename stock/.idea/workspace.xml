@@ -9,7 +9,31 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c70d7d6-87e2-4329-8cb1-07f52b5fad72" name="Changes" comment="" />
+    <list default="true" id="9c70d7d6-87e2-4329-8cb1-07f52b5fad72" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/domains/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/domains/ProductCreateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/domains/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/domains/ProductUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/infra/adapter/ProductUseCaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/infra/web/ProductResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/9.8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/9.8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/9.8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/9.8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/9.8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/9.8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/9.8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/9.8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/9.8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/9.8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../order/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/build/classes/java/main/br/com/order/order/domains/ProcessedEventCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/build/classes/java/main/br/com/order/order/domains/ProcessedEventCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/build/classes/java/main/br/com/order/order/domains/TopicsKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/build/classes/java/main/br/com/order/order/domains/TopicsKeys.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/build/classes/java/main/br/com/order/order/infra/adapter/ProcessedEventAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/build/classes/java/main/br/com/order/order/infra/adapter/ProcessedEventAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/build/classes/java/main/br/com/order/order/infra/mq/RabbitMqConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../order/build/classes/java/main/br/com/order/order/infra/mq/RabbitMqConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/build/tmp/compileJava/compileTransaction/stash-dir/ProcessedEvent.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/build/tmp/compileJava/compileTransaction/stash-dir/ProcessedEventRepository.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../order/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/domains/ProcessedEventCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/domains/ProcessedEventCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/domains/TopicsKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/domains/TopicsKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/infra/adapter/ProcessedEventAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/infra/adapter/ProcessedEventAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/infra/mq/RabbitMqConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/br/com/order/order/infra/mq/RabbitMqConfiguration.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Docker Compose" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,9 +69,11 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-26.0.1/lib/src.zip!/java.base/java/lang/System.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/4.1.2/spring-amqp-4.1.2-sources.jar!/org/springframework/amqp/support/converter/ClassMapper.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/4.1.2/spring-amqp-4.1.2-sources.jar!/org/springframework/amqp/support/converter/DefaultClassMapper.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/7.0.10/spring-messaging-7.0.10-sources.jar!/org/springframework/messaging/Message.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/7.0.10/spring-messaging-7.0.10-sources.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -62,61 +88,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="3.440022705999951E-22" />
-      <entry key="MS500" value="5.0969721644797934E-5" />
-      <entry key="S2" value="0.08449442706425786" />
-      <entry key="S5" value="0.372161314755497" />
-      <entry key="S10" value="0.6101035518487556" />
-      <entry key="S30" value="0.9270598558557156" />
-      <entry key="S60" value="1.5162288537635682" />
-      <entry key="M2" value="4.099160689726282" />
-      <entry key="M5" value="20.50432290385098" />
-      <entry key="M10" value="56.24742481857481" />
-      <entry key="M15" value="88.6876034922413" />
-      <entry key="M30" value="159.26886883157468" />
-      <entry key="H1" value="243.30330743697505" />
-      <entry key="H2" value="325.6626387651751" />
-      <entry key="H4" value="388.70185621472984" />
-      <entry key="D1" value="459.3102288300396" />
-      <entry key="W1" value="473.5560121701402" />
+      <entry key="MS100" value="2.186802351330826E-72" />
+      <entry key="MS500" value="4.655452570727945E-15" />
+      <entry key="S2" value="2.623915766297515E-4" />
+      <entry key="S5" value="0.045223837615547643" />
+      <entry key="S10" value="0.3758017881457957" />
+      <entry key="S30" value="2.761935862153935" />
+      <entry key="S60" value="6.669976964952955" />
+      <entry key="M2" value="13.019493840654874" />
+      <entry key="M5" value="22.492859925212166" />
+      <entry key="M10" value="33.58861186143812" />
+      <entry key="M15" value="49.283931207147084" />
+      <entry key="M30" value="109.6275707647062" />
+      <entry key="H1" value="213.65112468138688" />
+      <entry key="H2" value="333.19914870285714" />
+      <entry key="H4" value="432.71740152179336" />
+      <entry key="D1" value="551.05774335684" />
+      <entry key="W1" value="575.7396179016807" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0005493449632294" />
-      <entry key="MS500" value="1.2240332515200372" />
-      <entry key="S2" value="1.8733949893380002" />
-      <entry key="S5" value="2.3712390966702297" />
-      <entry key="S10" value="2.6430073738395166" />
-      <entry key="S30" value="3.0131880515651575" />
-      <entry key="S60" value="3.521529240602497" />
-      <entry key="M2" value="4.481654080072188" />
-      <entry key="M5" value="9.083191304117676" />
-      <entry key="M10" value="23.0512043154572" />
-      <entry key="M15" value="37.514741428307886" />
-      <entry key="M30" value="72.68887455881487" />
-      <entry key="H1" value="120.83970768456447" />
-      <entry key="H2" value="172.42379635001143" />
-      <entry key="H4" value="213.57766051833224" />
-      <entry key="D1" value="260.73259969874607" />
-      <entry key="W1" value="270.3475629045271" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000027570857" />
+      <entry key="S2" value="1.0106839200144804" />
+      <entry key="S5" value="1.3009345339627953" />
+      <entry key="S10" value="2.0505791605770165" />
+      <entry key="S30" value="4.595748531506723" />
+      <entry key="S60" value="8.42026253948022" />
+      <entry key="M2" value="14.656455821850601" />
+      <entry key="M5" value="24.359444118061592" />
+      <entry key="M10" value="35.030670916811296" />
+      <entry key="M15" value="46.32198029381614" />
+      <entry key="M30" value="82.28822523912147" />
+      <entry key="H1" value="142.20561270087833" />
+      <entry key="H2" value="213.75294913507744" />
+      <entry key="H4" value="275.3636406453168" />
+      <entry key="D1" value="350.41107395399905" />
+      <entry key="W1" value="366.25855702643116" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0016446880913964753" />
-      <entry key="MS500" value="0.38374447366081016" />
-      <entry key="S2" value="1.4912134111820146" />
-      <entry key="S5" value="2.4550173671023625" />
-      <entry key="S10" value="3.0754363768774997" />
-      <entry key="S30" value="3.8631386073417877" />
-      <entry key="S60" value="4.983162605676732" />
-      <entry key="M2" value="8.53424745838717" />
-      <entry key="M5" value="29.536571468803437" />
-      <entry key="M10" value="79.23488741721806" />
-      <entry key="M15" value="126.13521802664881" />
-      <entry key="M30" value="231.89463890172024" />
-      <entry key="H1" value="364.0907548170021" />
-      <entry key="H2" value="498.0489644121104" />
-      <entry key="H4" value="602.2562096298072" />
-      <entry key="D1" value="720.0380659781099" />
-      <entry key="W1" value="743.9028690682759" />
+      <entry key="MS100" value="9.211886681793644E-7" />
+      <entry key="MS500" value="0.062068282349994376" />
+      <entry key="S2" value="0.5083067145403416" />
+      <entry key="S5" value="1.0780650815500405" />
+      <entry key="S10" value="2.2228938866741355" />
+      <entry key="S30" value="7.117294681020526" />
+      <entry key="S60" value="14.81625772614912" />
+      <entry key="M2" value="27.41628294878322" />
+      <entry key="M5" value="46.67537773556943" />
+      <entry key="M10" value="68.49774299832565" />
+      <entry key="M15" value="95.50436405961683" />
+      <entry key="M30" value="191.83407880101115" />
+      <entry key="H1" value="355.79030334722574" />
+      <entry key="H2" value="546.9034090828928" />
+      <entry key="H4" value="708.0499658370471" />
+      <entry key="D1" value="901.4622615368484" />
+      <entry key="W1" value="941.99719672194" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -212,5 +238,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/stock/stock/infra/listeners/ProductListener.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

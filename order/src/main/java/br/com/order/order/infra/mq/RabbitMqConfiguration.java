@@ -49,8 +49,8 @@ public class RabbitMqConfiguration {
   }
 
   @Bean
-  public Binding topicBinding() {
-    return BindingBuilder.bind(orderQueue()).to(orderTopic()).with("order.#");
+  public Binding topicBinding(Queue orderQueue, TopicExchange orderTopic) {
+    return BindingBuilder.bind(orderQueue).to(orderTopic).with("order.#");
   }
 
   @Bean

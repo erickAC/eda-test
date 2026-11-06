@@ -4,7 +4,6 @@ import br.com.order.order.domains.ProcessedEvent;
 import br.com.order.order.domains.ProcessedEventCommand;
 import br.com.order.order.domains.ProcessedEventRepository;
 import br.com.order.order.domains.ProcessedEventService;
-import br.com.order.order.domains.TopicsKeys;
 import lombok.RequiredArgsConstructor;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Service;
@@ -20,6 +19,6 @@ public class ProcessedEventAdapter implements ProcessedEventService {
   public void send(ProcessedEventCommand command) {
     ProcessedEvent processedEvent = new ProcessedEvent(command.data());
     eventRepository.save(processedEvent);
-    rabbitTemplate.convertAndSend("order.topic", TopicsKeys.ORDER_CREATED, processedEvent);
+    rabbitTemplate.convertAndSend("order.topic", command.getEventType(), processedEvent);
   }
 }
